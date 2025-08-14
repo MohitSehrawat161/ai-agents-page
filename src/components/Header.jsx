@@ -19,13 +19,16 @@ const Header = () => {
         <header className="w-full h-[70px] bg-gradient-to-r from-[#03011b] space-y-3 via-[#080a11] to-[#252841] flex items-center fixed top-0 z-50">
             <nav className="w-full max-w-7xl mx-auto flex items-center justify-between px-8" style={{ height: 70 }}>
                 {/* Logo */}
-                <div className="mt-5 flex items-center flex-col max-2xl:ml-20">
-                    <Logo />
-                    <div className="text-white/60 mt-2 text-[10px] font-serif">Powered by Binary Informatics</div>
-                </div>
+                <Link href="/" className="flex items-center">
+                    {/* <Logo /> */}
+                    <div className="mt-5 flex items-center flex-col max-2xl:ml-20">
+                        <Logo />
+                        <div className="text-white/60 mt-2 text-[10px] font-serif">Powered by Binary Informatics</div>
+                    </div>
+                </Link>
 
                 {/* Desktop Navigation Links */}
-                <ul className="hidden md:flex items-center" style={{ fontWeight: 500, fontSize: 14, color: '#fff', gap: 20 }}>
+                <ul className="hidden md:flex items-center" style={{ fontWeight: 500, fontSize: 18, color: '#fff', gap: 20 }}>
                     <li className="mx-[10px]"><Link href="/" className="hover:text-[#46ffe2] transition">Home</Link></li>
                     <li className="mx-[10px]"><Link href="/agentics-ai-solution" className="hover:text-[#46ffe2] transition">Agentic AI Solution</Link></li>
                     <li className="mx-[10px]"><Link href="/ai-agents" className="hover:text-[#46ffe2] transition">AI Agents</Link></li>
@@ -35,7 +38,7 @@ const Header = () => {
                 {/* Desktop Request Demo Button */}
                 <div className="hidden md:block ml-4">
                     <button
-                        className="rounded-[10px] bg-gradient-to-r min-h-[40px] min-w-[100px] from-[#46fffb]  to-[#0f60ff]  font-bold transition-transform duration-300 hover:scale-105 hover:bg-[#3071f2] cursor-pointer max-2xl:mr-20"
+                        className="rounded-[10px] px-4 bg-gradient-to-r min-h-[40px] min-w-[100px] from-[#46fffb]  to-[#0f60ff]  font-bold transition-transform duration-300 hover:scale-105 hover:bg-[#3071f2] cursor-pointer max-2xl:mr-20"
                         style={{
                             fontWeight: 600,
                             fontSize: 14,
@@ -43,7 +46,7 @@ const Header = () => {
                             boxShadow: 'none',
                         }}
                     >
-                        GPT Mode
+                        Intelligence Mode
                     </button>
                 </div>
 
@@ -60,11 +63,11 @@ const Header = () => {
             {/* Mobile Side Menu */}
             <div className={`fixed inset-0 z-50 md:hidden transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                 {/* Backdrop */}
-                <div 
+                <div
                     className={`absolute inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0'}`}
                     onClick={closeMobileMenu}
                 ></div>
-                
+
                 {/* Side Menu */}
                 <div className={`absolute right-0 top-0 h-full w-80 bg-gradient-to-b from-[#03011b] via-[#080a11] to-[#252841] shadow-2xl transition-transform duration-300 ease-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                     <div className="flex flex-col h-full">
@@ -83,8 +86,8 @@ const Header = () => {
                         <nav className="flex-1 px-6 py-8">
                             <ul className="space-y-6">
                                 <li className={`transition-all duration-300 delay-100 ${isMobileMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`}>
-                                    <Link 
-                                        href="/" 
+                                    <Link
+                                        href="/"
                                         className="text-white text-lg font-medium hover:text-[#46ffe2] transition-colors block py-3 border-b border-white/10"
                                         onClick={closeMobileMenu}
                                     >
@@ -92,8 +95,8 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className={`transition-all duration-300 delay-150 ${isMobileMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`}>
-                                    <Link 
-                                        href="/agentic-ai-solution" 
+                                    <Link
+                                        href="/agentic-ai-solution"
                                         className="text-white text-lg font-medium hover:text-[#46ffe2] transition-colors block py-3 border-b border-white/10"
                                         onClick={closeMobileMenu}
                                     >
@@ -101,8 +104,8 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className={`transition-all duration-300 delay-200 ${isMobileMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`}>
-                                    <Link 
-                                        href="/ai-agents" 
+                                    <Link
+                                        href="/ai-agents"
                                         className="text-white text-lg font-medium hover:text-[#46ffe2] transition-colors block py-3 border-b border-white/10"
                                         onClick={closeMobileMenu}
                                     >
@@ -110,8 +113,8 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className={`transition-all duration-300 delay-250 ${isMobileMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`}>
-                                    <Link 
-                                        href="/data-and-ai" 
+                                    <Link
+                                        href="/data-and-ai"
                                         className="text-white text-lg font-medium hover:text-[#46ffe2] transition-colors block py-3 border-b border-white/10"
                                         onClick={closeMobileMenu}
                                     >
@@ -133,7 +136,7 @@ const Header = () => {
                                 }}
                                 onClick={closeMobileMenu}
                             >
-                                GPT Mode
+                                Intelligence Mode
                             </button>
                         </div>
                     </div>

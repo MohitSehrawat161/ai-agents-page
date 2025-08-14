@@ -390,11 +390,11 @@ const AiAgentsPage = () => {
 
             </section>
 
-            <section className="w-full flex flex-col items-center mt-20 mb-12 px-[4vw]">
+            {/* <section className="w-full flex flex-col items-center mt-20 mb-12 px-[4vw]">
                 <h2 className="text-white text-3xl sm:text-4xl font-bold mb-2 text-center">Simple, Transparent Pricing</h2>
                 <p className="text-white/70 text-base mb-10 text-center mt-3">Choose the perfect plan for your business needs</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 space-y-6 justify-center items-stretch w-full max-w-5xl mt-4">
-                    {/* Starter Plan */}
+                
                     <div className="flex-1 bg-[#241f2a] hover:translate-y-[-10px] transition-transform duration-300 rounded-3xl shadow-lg p-8 flex flex-col items-center border border-[#3a2e4a]">
                         <h3 className="text-white text-xl font-semibold mb-2">Starter</h3>
                         <div className="text-[#a78bfa] text-4xl font-bold mb-1">$99</div>
@@ -403,7 +403,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                                 
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -413,7 +413,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                              
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -423,7 +423,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                                 
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -433,7 +433,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                                
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -443,7 +443,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                                 
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -455,7 +455,7 @@ const AiAgentsPage = () => {
                             Get Started
                         </button>
                     </div>
-                    {/* Professional Plan */}
+                  
                     <div className="flex-1 bg-gradient-to-b from-[#3a2e4a] to-[#241f2a] rounded-3xl shadow-2xl p-8 flex flex-col items-center border-2 border-[#a78bfa] relative scale-105 z-10 hover:translate-y-[-10px] transition-transform duration-300">
                         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#a78bfa] text-[#241f2a] text-xs font-bold px-4 py-1 rounded-full shadow-lg">Most Popular</div>
                         <h3 className="text-white text-xl font-semibold mb-2 mt-4">Professional</h3>
@@ -465,7 +465,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                             
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -517,7 +517,7 @@ const AiAgentsPage = () => {
                             Get Started
                         </button>
                     </div>
-                    {/* Enterprise Plan */}
+                
                     <div className="flex-1 bg-[#241f2a] hover:translate-y-[-10px] transition-transform duration-300 rounded-3xl shadow-lg p-8 flex flex-col items-center border border-[#3a2e4a]">
                         <h3 className="text-white text-xl font-semibold mb-2">Enterprise</h3>
                         <div className="text-[#a78bfa] text-4xl font-bold mb-1">$999</div>
@@ -526,7 +526,7 @@ const AiAgentsPage = () => {
                             <li className="flex items-center justify-center gap-3">
                                 <span className="text-[#a78bfa] flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style={{ display: 'none' }}></svg>
-                                    {/* Lucid React CheckIcon */}
+                                
                                     <CheckIcon size={20} color="#a78bfa" />
                                 </span>
                                 <span className="mx-auto">
@@ -587,7 +587,7 @@ const AiAgentsPage = () => {
                         </button>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section style={{
                 backgroundImage: 'url("/train-and-deploy/agent-architect.jpg")',

@@ -92,7 +92,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#070616] to-black opacity-8 z-0" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full">
-          <h1 className="text-[58px] font-bold text-white text-center mb-4">
+          <h1 className="text-[80px] 2xl:text-[80px] font-bold text-white text-center mb-4">
             The <span className="bg-[#50a7ff] bg-clip-text text-transparent">Future</span> Is Agentic
           </h1>
           <p className="text-xl text-white text-center mb-4 ">
@@ -249,16 +249,16 @@ export default function Home() {
       <section className=" w-full flex mt-6 flex-col items-center py-10 bg-transparent max-w-[68rem] mx-auto p-6 rounded-3xl">
         <h2 className="text-[36px]  font-semibold text-white text-center">Authority in Full-Stack AI Product Development & Automation</h2>
 
-        <div className="grid grid-cols-2 w-full gap-2 mt-6">
-          <div className="flex justify-between bg-gradient-to-r from-[#000000] space-y-3 via-[#2d2d2db6] to-[#2d2d2d] rounded-lg px-3 py-4">
+        <div className="grid grid-cols-2 w-full gap-4 mt-6">
+          <div className="flex justify-between hover:scale-105 transition-transform duration-300 cursor-pointer bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920]   hover:from-[#000000] space-y-3 hover:via-[#2d2d2db6] hover:to-[#2d2d2d]  rounded-lg px-3 py-4">
             <div>
-              <h6 className="bg-gradient-to-r from-[#46e3ff] via-[#3c84ff] to-[#3c84ff] bg-clip-text text-transparent font-bold">Intelligent Interfaces</h6>
+              <h6 className="text-white font-bold">Intelligent Interfaces</h6>
               <p className="text-xs max-w-xs mt-1 text-white">Simplify complex workflows, allowing users to leverage AI effortlessly</p>
             </div>
             <IntelligentInterfacesIcon />
 
           </div>
-          <div className="flex text-white justify-between bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4">
+          <div className="flex justify-between hover:scale-105 transition-transform duration-300 cursor-pointer bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920]   hover:from-[#000000] space-y-3 hover:via-[#2d2d2db6] hover:to-[#2d2d2d]  rounded-lg px-3 py-4">
             <div>
               <h6 className=" text-white font-bold">Agents & Copilots</h6>
               <p className="text-xs max-w-xs mt-1 text-white/80">Intelligent systems that autonomously execute tasks, make decisions, and interact with users.</p>
@@ -267,25 +267,25 @@ export default function Home() {
 
           </div>
         </div>
-        <div className="grid lg:grid-cols-4  grid-cols-2  justify-between mt-2 w-full gap-2">
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4">
+        <div className="grid lg:grid-cols-4  grid-cols-2  justify-between mt-2 w-full gap-3">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Workflow Engine
             </h2>
             <p className="text-xs mt-2 text-white/80">DAGs, Agentic <br /> workflow system</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Multimodal Platform
             </h2>
             <p className="text-xs mt-2 text-white/80">Voice, Image, Voice, <br /> OCR, Telephony</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920] rounded-lg px-3 py-4">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Knowledge Base <br /> Search
             </h2>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Code Generation
             </h2>
@@ -293,39 +293,39 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2  justify-between mt-2 w-full gap-2 ">
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920] rounded-lg px-3 py-4 flex flex-col justify-between">
+        <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2  justify-between mt-2 w-full gap-3 ">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               NL to SQL
             </h2>
             <p className="text-xs mt-2 text-white/80">LLM</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920] rounded-lg px-3 py-4 flex flex-col justify-between">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               MCP
             </h2>
             <p className="text-xs mt-2 text-white/80">Image Generation <br /> Model</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4 flex flex-col justify-between">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Fine Tuned <br /> Model
             </h2>
             <p className="text-xs mt-2 text-white/80">Embedding Models</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4 flex flex-col justify-between" >
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               RAG
             </h2>
             <p className="text-xs mt-2 text-white/80">V2V, STT, TTS</p>
           </div>
-          <div className="bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4 flex flex-col justify-between">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
             <h2 className="text-white font-bold">
               Evals
             </h2>
             <p className="text-xs mt-2 text-white/80">Task Specific <br /> Models</p>
           </div>
-          <div className="text-white bg-gradient-to-t from-[#161243] via-[#161243] to-[#0c0920]  rounded-lg px-3 py-4 flex flex-col justify-between">
-            <h2 className="bg-gradient-to-r font-bold">
+          <div className="bg-gradient-to-r from-[#161243] via-[#161243] to-[#0c0920] hover:via-[#2d2d2db6] hover:to-[#2d2d2d] hover:scale-105 transition-transform duration-300 cursor-pointer rounded-lg px-3 py-4">
+            <h2 className="bg-gradient-to-r font-bold text-white">
               Guardrails
             </h2>
             <p className="text-xs mt-2 text-white/80">Reasoning <br /> Models</p>
